@@ -1,0 +1,31 @@
+# Docker files
+docker-compose.yml
+Dockerfile
+/nginx
+
+# Laravel (src)
+/src/node_modules
+/src/vendor
+/src/storage/*.key
+/src/storage/framework/cache/data/*
+/src/storage/framework/sessions/*
+/src/storage/framework/testing/*
+/src/storage/framework/views/*
+/src/storage/logs/*.log
+/src/public/storage
+/src/public/build
+/src/.env
+/src/.env.backup
+/src/.env.production
+/src/.phpunit.result.cache
+/src/auth.json
+/src/Homestead.json
+/src/Homestead.yaml
+/src/npm-debug.log
+/src/yarn-error.log
+/src/.idea
+/src/.vscode
+
+# OS files
+.DS_Store
+Thumbs.db
